@@ -147,13 +147,15 @@ progress {
 .options {
   display: flex;
   flex-direction: column;
+
   gap: 1.2rem;
   margin-bottom: 3.2rem;
 }
 
 .btn-option {
-  width: 100%;
-  text-align: left;
+  width: 50%;
+  text-align: center;
+  justify-content: center;
 }
 
 .btn-option.correct {
